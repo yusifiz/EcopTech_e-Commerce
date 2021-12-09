@@ -12,7 +12,7 @@
 <h2>Checkout</h2>
 <ul>
 <li>
-<a href="index.html">Home</a>
+<a href="{% url 'home:index' %}">Home</a>
 </li>
 <li>
 <span>Checkout</span>
@@ -150,7 +150,7 @@ Paypal
 <div class="form-check two">
 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
 <label class="form-check-label" for="flexCheckDefault2">
-I've read and accept <a href="terms-conditions.html">terms & conditions*</a>
+I've read and accept <a href="{% url 'pages:terms_conditions' %}">terms & conditions*</a>
 </label>
 </div>
 </div>
