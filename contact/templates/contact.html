@@ -12,7 +12,7 @@
 <h2>Contact</h2>
 <ul>
 <li>
-<a href="index.html">Home</a>
+<a href="{% url 'home:index' %}">Home</a>
 </li>
 <li>
 <span>Contact</span>
@@ -75,7 +75,7 @@
 <div class="form-check">
 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
 <label class="form-check-label" for="flexCheckDefault3">
-I accept all <a href="terms-conditions.html">Terms & Conditions</a>
+I accept all <a href="{% url 'pages:terms_conditions' %}">Terms & Conditions</a>
 </label>
 </div>
 </div>
